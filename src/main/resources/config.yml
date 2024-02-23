@@ -1,0 +1,20 @@
+# will print extra infos in the console
+debug: false
+
+spawn_every: 120 # in seconds
+despawn_every: 120 # in seconds
+
+world_name: "world"
+
+spawn_distance_threshold: 10
+max_attempt: 10
+chance_to_spawn_inside: 45 # NOT IN PERCENT ! Higher the number is more the plugin will try to find a location inside the building
+
+commands:
+  no_perm: "%prefix% You don't have the permission to execut this command"
+  bad_usage: "%prefix% This aliases does not exist !"
+
+prefix:
+  ok: "&6[&eMobsController&6] &7- &r"
+  good: "&2[&aMobsControler&2] &7- &2"
+  error: "&4[&cMobsController&4] &7- &4"

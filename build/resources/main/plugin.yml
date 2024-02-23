@@ -1,0 +1,19 @@
+name: MobsController
+version: 'ALPHA'
+main: fr.palmus.mobscontroller.MobsController
+api-version: '1.16'
+author: Palmus_
+depend:
+  - WorldGuard
+  - WorldEdit
+commands:
+  mobsc:
+    permission: mobsc.use
+    description: Interact with the MobController plugin
+    aliases:
+      - mobscontroller
+      - mcontroller
+
+permissions:
+  mobsc.use:
+    default: op
